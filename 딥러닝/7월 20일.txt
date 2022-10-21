@@ -1,0 +1,37 @@
+딥러닝에서 레이어마다 활성화 함수를 쓰지 않으면 결국 최종 y = W * 최종 x + b가 되기 때문에 레이어를 넣은 의미가 없다.
+
+RNN
+Gradient Exploding 문제때문에 tanh를 주로 사용
+
+Adam의 clipnorm 매개변수
+기울기가 얼마 이상이면 자름
+
+Greedy Layer-Wise Training
+weight를 설정하는 방법
+
+
+Xavier weight 초기화
+미분값이 0이 되는 0, 1에 값을 몰아놓는 것이 아닌 중앙으로 값을 몰게하는 기법
+인풋, 아웃풋 노드 모두 관여
+sigmoid, TanH
+
+He weight 초기화
+인풋 노드만 관여
+ReLU
+
+Batch Normalization
+각 특징별 평균과 분산을 구해서 정규화
+정규화를 하지 않으면 불균형하게 나옴
+RNN에 적합하지 않음
+
+Layer Normalization
+RNN을 위한 정규화 방법
+
+Dropout
+특징을 끄면 훈련 효과가 안 좋아지는 게 아닌 얼마 없는 특징만으로 예측하기 위해 더 성능이 좋아진다.
+
+과적합을 방지하는 방법
+1. 데이터 양을 늘린다.
+2. weight의 수를 줄인다.
+3. Regularization 적용
+4. Dropout 사용

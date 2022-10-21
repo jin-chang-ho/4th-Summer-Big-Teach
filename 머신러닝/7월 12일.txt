@@ -1,0 +1,6 @@
+CROSS-VALIDATION의 추가 종류
+1. LOOCV  : 1개의 데이터로 테스트, 나머지는 훈련 / 훈련에 Focus를 맞춘 예측
+2. TIME SERIES CROSS-VALIDATION : word2Vec같은 시계열 예측에 좋음 / 다음을 어떻게 예측할 것인가를 평가
+
+Validation Data는 데이터 크기가 클 때 활용하면 좋다.
+
